@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Filson Pro Book";
+	src: url("../fonts/FilsonProBook.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Filson Pro Black";
+	src: url("../fonts/FilsonProBlack.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Filson Pro Regular";
+	src: url("../fonts/FilsonProRegular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Filson Pro Book Italic";
+	src: url("../fonts/FilsonProBookItalic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Filson Pro Book Italic";
+	src: url("../fonts/FilsonProBookItalic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Filson Pro Heavy";
+	src: url("../fonts/FilsonProHeavy.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Montserrat Regular";
+	src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat Bold";
+	src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat ExtraBold";
+	src: url("../fonts/Montserrat-ExtraBold.ttf");
+}

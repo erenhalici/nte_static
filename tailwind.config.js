@@ -1,0 +1,45 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}", "*.html"],
+  theme: {
+    extend: {
+      scale: {
+        "-100": "-1",
+      },
+      colors: {
+        red: {
+          600: "#DD2320",
+        },
+        sky: {
+          600: "#0971af",
+        },
+        neutral: {
+          600: "#606060",
+        },
+      },
+      backgroundImage: {
+        "blue-arrow": "url('../img/20-NTE tanıtım projesi.png')",
+        "red-arrow": "url('../img/21-NTE tanıtım video.png')",
+        windmills: "url('../img/22-iletisim background.png')",
+      },
+      fontSize: {
+        xs: "0.4rem",
+      },
+    },
+    container: {
+      center: true,
+    },
+    fontFamily: {
+      sans: ["Filson Pro Book"],
+      black: ["Filson Pro Black"],
+      regular: ["Filson Pro Regular"],
+      italic: ["Filson Pro Book Italic"],
+      heavy: ["Filson Pro Heavy"],
+      montserrat: ["Montserrat Regular"],
+      "montserrat-bold": ["Montserrat Bold"],
+      "montserrat-extrabold": ["Montserrat ExtraBold"],
+      awesome: ["FontAwesome"],
+    },
+  },
+  plugins: [],
+};
