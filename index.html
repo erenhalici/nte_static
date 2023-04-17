@@ -11,28 +11,29 @@
   </head>
 
   <body>
-    <div class="md:w-[1280px] md:mx-auto">
-      <img src="img/1-AB-TR.png" class="mx-auto h-20 mt-4" />
+    <img src="img/1-AB-TR.png" class="mx-auto h-20 mt-4" />
 
-      <img src="img/2-NTE logo.png" class="h-12 float-left ml-12" />
-      <div class="pb-1 mx-auto text-center mt-6 font-montserrat-bold">
-        <a href="#" class="text-[8pt] ml-32 pl-3 pr-3 border-r border-slate-300"
-          >ANASAYFA</a
-        >
-        <a href="#" class="text-[8pt] pl-3 pr-3 border-r border-slate-300"
-          >PROJE HAKKINDA</a
-        >
-        <a href="#" class="text-[8pt] pl-3 pr-3 border-r border-slate-300"
-          >AR-GE MERKEZLERİMİZ VE LABORATUVARLARIMIZ</a
-        >
-        <a href="#" class="text-[8pt] pl-3 pr-3 border-r border-slate-300"
-          >MEDYA</a
-        >
+    <div class="flex flex-row pb-2">
+      <img src="img/2-NTE logo.png" class="h-12 float-left ml-6" />
+      <div class="max-lg:hidden mx-auto text-center mt-6 font-montserrat-bold">
+        <a href="#" class="text-[8pt] pl-3 pr-3 border-r border-slate-300">
+          ANASAYFA
+        </a>
+        <a href="#" class="text-[8pt] pl-3 pr-3 border-r border-slate-300">
+          PROJE HAKKINDA
+        </a>
+        <a href="#" class="text-[8pt] pl-3 pr-3 border-r border-slate-300">
+          AR-GE MERKEZLERİMİZ VE LABORATUVARLARIMIZ
+        </a>
+        <a href="#" class="text-[8pt] pl-3 pr-3 border-r border-slate-300">
+          MEDYA
+        </a>
         <a href="#" class="text-[8pt] pl-3 pr-3">İLETİŞİM</a>
-
+      </div>
+      <div class="max-lg:hidden mt-6 mr-2 min-w-[180px]">
         <input
           type="text"
-          class="border rounded-full w-36 h-6 ml-8 text-sm font-regular pl-2 placeholder:font-awesome placeholder:text-right placeholder:pr-2 placeholder:text-sm"
+          class="border rounded-full w-28 h-6 text-sm font-regular pl-2 placeholder:font-awesome placeholder:text-right placeholder:pr-2 placeholder:text-sm"
           placeholder="&#xF002;"
         />
         <img
@@ -41,34 +42,92 @@
         />
         <img src="img/3-dil EN.png" class="h-5 inline-block pl-1" />
       </div>
-
-      <div class="relative overflow-hidden">
-        <img src="img/6-Banner text.png" class="h-40 absolute top-16 left-12" />
-        <img src="img/0-ust background.png" class="absolute top-[-172px]" />
-        <img src="img/5-Banner.png" class="mt-0" />
+      <div class="ml-auto pr-6 lg:hidden">
+        <button
+          class="menu-button hover:bg-sky-200 border border-sky-600 text-sky-600 mt-2 h-8 py-0 px-2 text-lg rounded"
+        >
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
       </div>
+    </div>
 
-      <div class="p-16">
-        <img src="img/6-Giris.png" class="float-left h-32 mr-12" />
-        <p class="text-sm leading-snug pt-4">
-          Avrupa Birliği ve Türkiye Cumhuriyeti mali işbirliği çerçevesinde
-          finanse edilen, Türkiye’nin Nadir Toprak Elementlerinin Araştırma ve
-          İnovasyon Kapasitesini Geliştirme Projesi (NTE Projesi), Sanayi ve
-          Teknoloji Bakanlığı’nın yürütmekte olduğu Rekabetçi Sektörler Programı
-          kapsamında, Projenin nihai faydalanıcısı Sanayi Genel Müdürlüğü (SGM)
-          ve Proje ortakları Maden Tetkik ve Arama Genel Müdürlüğü (MTA) ve
-          Munzur Üniversitesi Nadir Toprak Elementleri Uygulama ve Araştırma
-          Merkezi (MUNTEAM) ile birlikte hayata geçirilmektedir.
-        </p>
+    <div class="menu hidden sm:ml-6 font-montserrat-bold">
+      <p>
+        <a href="#" class="text-[8pt] pl-2"> ANASAYFA </a>
+      </p>
+
+      <p>
+        <a href="#" class="text-[8pt] pl-2"> PROJE HAKKINDA </a>
+      </p>
+
+      <p>
+        <a href="#" class="text-[8pt] pl-2">
+          AR-GE MERKEZLERİMİZ VE LABORATUVARLARIMIZ
+        </a>
+      </p>
+
+      <p>
+        <a href="#" class="text-[8pt] pl-2">MEDYA</a>
+      </p>
+
+      <p><a href="#" class="text-[8pt] pl-2">İLETİŞİM</a></p>
+
+      <div class="pl-2 py-2 text-center">
+        <input
+          type="text"
+          class="border rounded-full h-6 text-sm font-regular pl-2 placeholder:font-awesome placeholder:text-right placeholder:pr-2 placeholder:text-sm"
+          placeholder="&#xF002;"
+        />
+        <img
+          src="img/4-dil TR.png"
+          class="h-5 inline-block pr-2 border-r border-slate-300"
+        />
+        <img src="img/3-dil EN.png" class="h-5 inline-block pl-1" />
       </div>
+    </div>
 
-      <img src="img/7-ara bant.png" class="" />
-      <h1 class="mt-12 text-center text-red-600 text-xl font-black">AMAÇ</h1>
+    <div class="relative bg-banner bg-cover bg-center">
+      <div
+        class="w-full h-[13px] bg-shadow bg-[length:100%_112px] bg-bottom absolute"
+      ></div>
+      <div class="sm:px-20 px-8 lg:px-40 max-w-[1280px] mx-auto py-4 sm:py-12">
+        <img src="img/6-Banner text.png" class="max-h-40 pt-2" />
+      </div>
+    </div>
+
+    <div
+      class="md:grid md:grid-cols-5 gap-8 py-12 px-8 sm:px-20 lg:px-40 max-w-[1280px] mx-auto"
+    >
+      <div
+        class="bg-magnetic bg-contain bg-no-repeat md:bg-cover bg-center max-md:min-h-[128px] md:col-span-2 w-full mx-auto"
+      ></div>
+      <p class="text-sm leading-snug col-span-3 md:pb-4 pt-4">
+        Avrupa Birliği ve Türkiye Cumhuriyeti mali işbirliği çerçevesinde
+        finanse edilen, Türkiye’nin Nadir Toprak Elementlerinin Araştırma ve
+        İnovasyon Kapasitesini Geliştirme Projesi (NTE Projesi), Sanayi ve
+        Teknoloji Bakanlığı’nın yürütmekte olduğu Rekabetçi Sektörler Programı
+        kapsamında, Projenin nihai faydalanıcısı Sanayi Genel Müdürlüğü (SGM) ve
+        Proje ortakları Maden Tetkik ve Arama Genel Müdürlüğü (MTA) ve Munzur
+        Üniversitesi Nadir Toprak Elementleri Uygulama ve Araştırma Merkezi
+        (MUNTEAM) ile birlikte hayata geçirilmektedir.
+      </p>
+    </div>
+
+    <div class="bg-chemical bg-cover bg-center h-[92px] block"></div>
+    <h1 class="mt-12 text-center text-red-600 text-xl font-black">AMAÇ</h1>
+    <div class="px-10 sm:px-20 md:px-56">
       <p
-        class="mt-6 mb-12 text-center leading-snug text-red-600 text-md font-regular md:mx-56 relative"
+        class="mt-6 mb-12 text-center leading-snug text-red-600 text-md font-regular max-w-[1280px] mx-auto relative"
       >
-        <span class="text-[72pt] font-italic absolute -top-11 -left-4">
+        <span
+          class="text-[72pt] font-italic absolute -top-11 -left-12 max-xs:hidden"
+        >
           &ldquo;
+        </span>
+        <span
+          class="text-[72pt] font-italic absolute -bottom-24 -right-6 max-xs:hidden"
+        >
+          &rdquo;
         </span>
         NTE Projesi ile
         <span class="font-italic">
@@ -76,129 +135,136 @@
           ekonomik kalkınması için sürdürülebilir bir NTE tedarik zincirinin
           kurulması amaçlanmaktadır.
         </span>
-        <span class="text-[72pt] font-italic absolute -bottom-24 right-0">
-          &rdquo;
-        </span>
       </p>
-      <p class="mt-8 text-left text-sm leading-snug md:px-40">
-        Yüksek teknoloji ürünlerinin yer aldığı yenilenebilir enerji, elektrikli
-        araç, dijital teknoloji ve havacılık gibi sektörler, imalatlarında NTE
-        bazlı ürünler kullanmakta ve bu sektörlerin NTE talepleri gün geçtikçe
-        artmaktadır. Bu talebi karşılamak ve uluslararası NTE tedarik zincirinde
-        kritik bir rol edinmek büyük önem arz etmektedir. Bu rolü edinebilmenin
-        ilk adımı, Türkiye’de NTE üzerine Ar-Ge kapasitelerinin artırılması ve
-        küresel iş ağlarının genişletilmesidir.
-      </p>
-      <img src="img/8-cizgi.png" class="mx-auto my-8 md:px-40" />
-      <h1 class="text-center text-sky-600 text-xl font-black mb-4">
-        HEDEF GRUPLAR
-      </h1>
-      <div class="md:px-40 grid grid-cols-4 gap-14">
-        <img src="img/9-kamu.png" />
-        <img src="img/10-ozel sektor.png" />
-        <img src="img/11-ilgili federasyon.png" />
-        <img src="img/12-universite.png" />
-      </div>
-      <img src="img/8-cizgi.png" class="mx-auto my-8 md:px-40" />
-      <div class="md:px-40 grid grid-cols-2 gap-4 pb-8">
-        <div>
-          <div class="relative">
-            <h1 class="text-center text-sky-600 text-xl font-black mb-4">
-              HABERLER
-            </h1>
-            <p
-              class="font-heavy text-white leading-snug absolute bottom-4 left-4 pr-16"
-            >
-              Türkiye’nin Nadir Toprak Elementlerinin Araştırma ve İnovasyon
-              Kapasitesini Geliştirme Projesi (NTE Projesi) Başladı!
-            </p>
-            <img src="img/13-haberler 1.png" class="pb-2" />
-          </div>
-          <div class="flex h-20 mx-auto">
-            <img src="img/16-ok.png" class="w-4 h-4 my-auto" />
-            <img src="img/14-haberler 2.png" class="px-2" />
-            <img src="img/14-haberler 3.png" class="px-2" />
-            <img src="img/15-haberler 4.png" class="px-2" />
-            <img
-              src="img/16-ok.png"
-              class="w-4 h-4 my-auto transform -scale-x-100"
-            />
-          </div>
-        </div>
-        <div>
-          <h1 class="text-center text-red-600 text-xl font-black mb-4">
-            DUYURULAR
+    </div>
+    <p
+      class="mt-8 text-left text-sm leading-snug px-10 sm:px-20 md:px-40 max-w-[1280px] mx-auto"
+    >
+      Yüksek teknoloji ürünlerinin yer aldığı yenilenebilir enerji, elektrikli
+      araç, dijital teknoloji ve havacılık gibi sektörler, imalatlarında NTE
+      bazlı ürünler kullanmakta ve bu sektörlerin NTE talepleri gün geçtikçe
+      artmaktadır. Bu talebi karşılamak ve uluslararası NTE tedarik zincirinde
+      kritik bir rol edinmek büyük önem arz etmektedir. Bu rolü edinebilmenin
+      ilk adımı, Türkiye’de NTE üzerine Ar-Ge kapasitelerinin artırılması ve
+      küresel iş ağlarının genişletilmesidir.
+    </p>
+    <img
+      src="img/8-cizgi.png"
+      class="my-8 md:px-40 max-w-[1280px] w-full h-[1px] mx-auto"
+    />
+    <h1 class="text-center text-sky-600 text-xl font-black mb-4">
+      HEDEF GRUPLAR
+    </h1>
+    <div
+      class="grid lg:px-72 lg:px-40 md:grid-cols-4 grid-cols-2 gap-8 px-10 sm:px-20 md:px-40 max-w-[1280px] mx-auto"
+    >
+      <img src="img/9-kamu.png" class="mx-auto" />
+      <img src="img/10-ozel sektor.png" class="mx-auto" />
+      <img src="img/11-ilgili federasyon.png" class="mx-auto" />
+      <img src="img/12-universite.png" class="mx-auto" />
+    </div>
+    <img
+      src="img/8-cizgi.png"
+      class="my-8 md:px-40 max-w-[1280px] w-full h-[1px] mx-auto"
+    />
+    <div class="md:px-40 max-w-[1280px] grid lg:grid-cols-2 gap-4 pb-8 mx-auto">
+      <div>
+        <div class="relative">
+          <h1 class="text-center text-sky-600 text-xl font-black mb-4">
+            HABERLER
           </h1>
-          <div class="ml-16">
-            <div class="relative">
-              <img
-                src="img/17-kırmızı ok.png"
-                class="w-2 absolute -left-4 top-1"
-              />
-              <p class="text-sm text-neutral-600 leading-snug">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam...
-              </p>
-              <img
-                src="img/18-devam kırmızı.png"
-                class="w-20 absolute right-0"
-              />
-              <img src="img/8-cizgi.png" class="mx-auto mt-12 mb-8 h-[1px]" />
-            </div>
-            <div class="relative">
-              <img
-                src="img/17-kırmızı ok.png"
-                class="w-2 absolute -left-4 top-1"
-              />
-              <p class="text-sm text-neutral-600 leading-snug">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam...
-              </p>
-              <img
-                src="img/18-devam kırmızı.png"
-                class="w-20 absolute right-0"
-              />
-              <img src="img/8-cizgi.png" class="mx-auto mt-12 mb-8 h-[1px]" />
-            </div>
-            <div class="relative">
-              <img
-                src="img/17-kırmızı ok.png"
-                class="w-2 absolute -left-4 top-1"
-              />
-              <p class="text-sm text-neutral-600 leading-snug">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam...
-              </p>
-              <img
-                src="img/18-devam kırmızı.png"
-                class="w-20 absolute right-0"
-              />
-              <img src="img/8-cizgi.png" class="mx-auto mt-12 mb-8 h-[1px]" />
-            </div>
-          </div>
+          <p
+            class="font-heavy text-white leading-snug absolute bottom-4 left-4 pr-16"
+          >
+            Türkiye’nin Nadir Toprak Elementlerinin Araştırma ve İnovasyon
+            Kapasitesini Geliştirme Projesi (NTE Projesi) Başladı!
+          </p>
+          <img src="img/13-haberler 1.png" class="pb-2" />
         </div>
-      </div>
-      <div class="grid grid-cols-2 gap-1 pb-8">
-        <div class="md:pl-40 pt-3 bg-blue-arrow bg-cover">
-          <h1 class="pr-20 font-heavy text-white text-xl text-center">
-            NTE Projesi Tanıtım Broşürü
-          </h1>
+        <div class="flex h-20 px-28 mx-auto justify-center">
+          <img src="img/16-ok.png" class="object-cover w-4 h-4 my-auto" />
+          <img src="img/14-haberler 2.png" class="object-cover px-2" />
+          <img src="img/14-haberler 3.png" class="object-cover px-2" />
+          <img src="img/15-haberler 4.png" class="object-cover px-2" />
           <img
-            src="img/19-broshure.png"
-            class="h-[320px] max-w-none relative right-24"
+            src="img/16-ok.png"
+            class="w-4 h-4 my-auto transform -scale-x-100"
           />
         </div>
-        <div class="md:pr-40 pt-3 bg-red-arrow bg-cover">
-          <h1 class="pl-20 font-heavy text-white text-xl text-center">
-            NTE Projesi Tanıtım Videosu
-          </h1>
-          <div class="ml-12 mt-8 w-[482px] relative">
-            <div class="border border-white">
-              <img
-                src="img/15-haberler 4.png"
-                class="h-64 w-[480px] max-w-none max-h-none object-cover filter brightness-50"
-              />
-            </div>
+      </div>
+      <div>
+        <h1
+          class="text-center text-red-600 text-xl font-black mb-4 max-lg:mt-8"
+        >
+          DUYURULAR
+        </h1>
+        <div class="ml-8 mr-4 sm:ml-16 sm:max-lg:mr-16">
+          <div class="relative">
+            <img
+              src="img/17-kırmızı ok.png"
+              class="w-2 absolute -left-4 top-1"
+            />
+            <p class="text-sm text-neutral-600 leading-snug">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam...
+            </p>
+            <img src="img/18-devam kırmızı.png" class="w-20 absolute right-0" />
+            <img src="img/8-cizgi.png" class="mx-auto mt-12 mb-8 h-[1px]" />
+          </div>
+          <div class="relative">
+            <img
+              src="img/17-kırmızı ok.png"
+              class="w-2 absolute -left-4 top-1"
+            />
+            <p class="text-sm text-neutral-600 leading-snug">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam...
+            </p>
+            <img src="img/18-devam kırmızı.png" class="w-20 absolute right-0" />
+            <img src="img/8-cizgi.png" class="mx-auto mt-12 mb-8 h-[1px]" />
+          </div>
+          <div class="relative">
+            <img
+              src="img/17-kırmızı ok.png"
+              class="w-2 absolute -left-4 top-1"
+            />
+            <p class="text-sm text-neutral-600 leading-snug">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam...
+            </p>
+            <img src="img/18-devam kırmızı.png" class="w-20 absolute right-0" />
+            <img src="img/8-cizgi.png" class="mx-auto mt-12 mb-8 h-[1px]" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-1 pb-8">
+      <div
+        class="h-[360px] w-full pt-5 bg-blue-arrow bg-cover bg-center overflow-hidden max-xl:max-w-2xl max-lg:mx-auto"
+      >
+        <h1
+          class="text-center lg:text-right lg:pr-40 font-heavy text-white text-xl"
+        >
+          NTE Projesi Tanıtım Broşürü
+        </h1>
+        <img src="img/19-broshure.png" class="relative w-full" />
+      </div>
+      <div
+        class="h-[360px] w-full pt-5 bg-red-arrow bg-cover bg-center overflow-hidden max-xl:max-w-2xl max-lg:mx-auto"
+      >
+        <h1
+          class="text-center lg:text-left lg:pl-32 font-heavy text-white text-xl"
+        >
+          NTE Projesi Tanıtım Videosu
+        </h1>
+        <div class="mt-5 px-12 w-full relative">
+          <div
+            class="w-full lg:max-w-[512px] h-[256px] border border-white relative"
+          >
+            <img
+              src="img/15-haberler 4.png"
+              class="w-full h-full object-cover filter brightness-50"
+            />
             <img
               src="img/video-play.png"
               class="w-12 absolute left-0 right-0 top-0 bottom-0 mx-auto my-auto"
@@ -207,59 +273,71 @@
         </div>
       </div>
     </div>
-    <p
-      class="mt-6 mb-12 text-center leading-snug text-sky-600 text-md md:mx-56 relative"
-    >
-      <span class="text-[72pt] font-italic absolute -top-11 -left-4">
-        &ldquo;
-      </span>
-      NTE Projesi ile Türkiye, AB Standartlarına ve Yeşil Mutabakata uygun
-      yüksek teknolojili ürünlerde NTE uygulamalarını destekleyerek, temiz
-      enerji ve mobilite çözümleri geliştirme konusunda, ekonomik ve çevresel
-      olarak sürdürülebilir şekilde, bilgi birikimini ve teknoloji kapasitesini
-      artırıyor.
-      <span class="text-[72pt] font-italic absolute -bottom-24 right-0">
-        &rdquo;
-      </span>
-    </p>
-
-    <div class="bg-windmills bg-cover pt-10">
-      <h1 class="text-center font-black text-sky-600">İLETİŞİM</h1>
-      <div class="md:px-72 grid grid-cols-2 gap-4 pb-8 pt-10">
-        <div>
-          <h1 class="font-montserrat-extrabold text-sm mb-2">Adres</h1>
-          <p class="font-montserrat text-xs leading-snug mb-4">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut veniam, quis nostrud exerci tation
-            ullamcorper suscipit. Duis autem vel eum iriure dolor.
-          </p>
-          <img src="img/29-tel icon.png" class="h-5 inline-block mr-3" />
-          <p class="font-montserrat-extrabold text-sm inline-block">
-            +90 312 000 00 00
-          </p>
-          <div class="my-2"></div>
-          <img src="img/30-mail icon.png" class="h-5 inline-block mr-3" />
-          <p class="font-montserrat-extrabold text-sm inline-block">
-            info@nte.com
-          </p>
-        </div>
-        <div class="pl-4">
-          <h1 class="font-montserrat-extrabold text-sm mb-2">E-Posta</h1>
-          <p class="font-montserrat text-xs leading-snug mb-4">
-            NTE ile ilgili duyuruların, haberlerin ve etkinliklerin e-posta
-            adresinize gönderilmesini istiyorsanız lütfen e-postanızı kaydedin.
-          </p>
-          <input
-            type="text"
-            class="border rounded-full w-80 h-8 font-montserrat text-sm pl-4 placeholder:font-montserrat placeholder:text-xs"
-            placeholder="@ E-Posta"
-          />
-          <img src="img/31-gonder mavi.png" class="mt-4 h-6" />
-        </div>
-      </div>
-      <img src="img/23-social media icons.png" class="mx-auto w-80 mt-8 pb-4" />
+    <div class="mt-6 mb-12 px-10 sm:px-20 md:px-56">
+      <p
+        class="text-center leading-snug text-sky-600 text-md max-w-[1280px] mx-auto relative"
+      >
+        <span
+          class="text-[72pt] font-italic absolute -top-11 -left-12 max-xs:hidden"
+        >
+          &ldquo;
+        </span>
+        <span
+          class="text-[72pt] font-italic absolute -bottom-24 -right-6 max-xs:hidden"
+        >
+          &rdquo;
+        </span>
+        NTE Projesi ile Türkiye, AB Standartlarına ve Yeşil Mutabakata uygun
+        yüksek teknolojili ürünlerde NTE uygulamalarını destekleyerek, temiz
+        enerji ve mobilite çözümleri geliştirme konusunda, ekonomik ve çevresel
+        olarak sürdürülebilir şekilde, bilgi birikimini ve teknoloji
+        kapasitesini artırıyor.
+      </p>
     </div>
-    <div class="grid grid-cols-4 gap-1 py-4">
+
+    <div class="bg-windmills bg-cover bg-center pt-10">
+      <div class="px-10 sm:px-20 md:px-40 max-w-[1280px] mx-auto">
+        <h1 class="text-center font-black text-sky-600">İLETİŞİM</h1>
+        <div class="lg:px-36 grid sm:grid-cols-2 gap-4 pt-10">
+          <div class="pb-8">
+            <h1 class="font-montserrat-extrabold text-sm mb-2">Adres</h1>
+            <p class="font-montserrat text-xs leading-snug mb-4">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut veniam, quis nostrud exerci
+              tation ullamcorper suscipit. Duis autem vel eum iriure dolor.
+            </p>
+            <img src="img/29-tel icon.png" class="h-5 inline-block mr-3" />
+            <p class="font-montserrat-extrabold text-sm inline-block">
+              +90 312 000 00 00
+            </p>
+            <div class="my-2"></div>
+            <img src="img/30-mail icon.png" class="h-5 inline-block mr-3" />
+            <p class="font-montserrat-extrabold text-sm inline-block">
+              info@nte.com
+            </p>
+          </div>
+          <div class="sm:pl-4">
+            <h1 class="font-montserrat-extrabold text-sm mb-2">E-Posta</h1>
+            <p class="font-montserrat text-xs leading-snug mb-4">
+              NTE ile ilgili duyuruların, haberlerin ve etkinliklerin e-posta
+              adresinize gönderilmesini istiyorsanız lütfen e-postanızı
+              kaydedin.
+            </p>
+            <input
+              type="text"
+              class="border rounded-full lg:w-full h-8 font-montserrat text-sm pl-4 placeholder:font-montserrat placeholder:text-xs"
+              placeholder="@ E-Posta"
+            />
+            <img src="img/31-gonder mavi.png" class="mt-4 h-6" />
+          </div>
+        </div>
+        <img
+          src="img/23-social media icons.png"
+          class="mx-auto w-80 mt-8 pb-4"
+        />
+      </div>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-1 py-4">
       <img src="img/25-teknoloji bakanlıgı.png" class="h-8 mx-auto my-auto" />
       <img src="img/26-MTA logo.png" class="h-8 mx-auto my-auto" />
       <img src="img/27-Munteam logo.png" class="h-4 mx-auto my-auto" />
@@ -268,7 +346,7 @@
         class="h-8 mx-auto my-auto"
       />
     </div>
-    <div class="bg-sky-600 py-4">
+    <div class="bg-sky-600 py-4 px-8">
       <p class="font-italic text-white text-center text-xs">
         Bu Web Sitesi Avrupa Birliği ve Türkiye Cumhuriyeti’nin mali desteğiyle
         hazırlanmıştır. Yayının içeriğinden sadece WYG Türkiye sorumlu olup,
@@ -277,7 +355,7 @@
       </p>
     </div>
 
-    <!-- <script src="jquery-3.1.1.min.js"></script> -->
-    <!-- <script src="nte.js"></script> -->
+    <script src="src/jquery-3.6.4.min.js"></script>
+    <script src="src/nte.js"></script>
   </body>
 </html>
