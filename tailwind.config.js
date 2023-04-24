@@ -18,6 +18,8 @@ module.exports = {
         },
       },
       backgroundImage: {
+        red: "url('../img/34-red bg.png')",
+        sky: "url('../img/35-sky bg.png')",
         shadow: "url('../img/0-ust background.png')",
         banner: "url('../img/5-Banner.png')",
         magnetic: "url('../img/6-Giris.png')",
