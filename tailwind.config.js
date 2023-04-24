@@ -45,6 +45,7 @@ module.exports = {
       regular: ["Filson Pro Regular"],
       italic: ["Filson Pro Book Italic"],
       heavy: ["Filson Pro Heavy"],
+      "bold-italic": ["Filson Pro Bold Italic"],
       montserrat: ["Montserrat Regular"],
       "montserrat-bold": ["Montserrat Bold"],
       "montserrat-extrabold": ["Montserrat ExtraBold"],
