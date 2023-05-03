@@ -9,9 +9,11 @@ module.exports = {
       colors: {
         red: {
           600: "#DD2320",
+          transparent: "rgba(254, 202, 202, 0.2)",
         },
         sky: {
           600: "#0971af",
+          transparent: "rgba(186, 230, 253, 0.2)",
         },
         neutral: {
           600: "#606060",
