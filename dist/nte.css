@@ -772,8 +772,16 @@ video {
   height: 100%;
 }
 
+.max-h-4 {
+  max-height: 1rem;
+}
+
 .max-h-40 {
   max-height: 10rem;
+}
+
+.max-h-8 {
+  max-height: 2rem;
 }
 
 .max-h-96 {
@@ -855,6 +863,10 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-5 {
@@ -1176,6 +1188,10 @@ video {
 
 .text-\[72pt\] {
   font-size: 72pt;
+}
+
+.text-\[7pt\] {
+  font-size: 7pt;
 }
 
 .text-\[8pt\] {
