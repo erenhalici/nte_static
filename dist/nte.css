@@ -808,6 +808,10 @@ video {
   width: 15rem;
 }
 
+.w-\[512px\] {
+  width: 512px;
+}
+
 .w-full {
   width: 100%;
 }
