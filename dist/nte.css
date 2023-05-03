@@ -760,6 +760,10 @@ video {
   height: 256px;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-\[360px\] {
   height: 360px;
 }
@@ -1566,16 +1570,8 @@ video {
     padding-left: 8rem;
   }
 
-  .lg\:pr-40 {
-    padding-right: 10rem;
-  }
-
   .lg\:text-left {
     text-align: left;
-  }
-
-  .lg\:text-right {
-    text-align: right;
   }
 }
 
