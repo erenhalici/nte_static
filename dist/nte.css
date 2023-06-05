@@ -1217,10 +1217,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xs {
-  font-size: 0.4rem;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -1375,6 +1371,14 @@ video {
   font-family: Montserrat Regular;
 }
 
+.placeholder\:text-\[6pt\]::-moz-placeholder {
+  font-size: 6pt;
+}
+
+.placeholder\:text-\[6pt\]::placeholder {
+  font-size: 6pt;
+}
+
 .placeholder\:text-sm::-moz-placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1383,14 +1387,6 @@ video {
 .placeholder\:text-sm::placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.placeholder\:text-xs::-moz-placeholder {
-  font-size: 0.4rem;
-}
-
-.placeholder\:text-xs::placeholder {
-  font-size: 0.4rem;
 }
 
 .hover\:bg-sky-200:hover {
