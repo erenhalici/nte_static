@@ -556,16 +556,8 @@ video {
   top: -2.75rem;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .bottom-4 {
   bottom: 1rem;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 .left-4 {
@@ -574,10 +566,6 @@ video {
 
 .right-0 {
   right: 0px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .top-1 {
@@ -760,6 +748,10 @@ video {
   height: 256px;
 }
 
+.h-\[270px\] {
+  height: 270px;
+}
+
 .h-\[300px\] {
   height: 300px;
 }
@@ -794,10 +786,6 @@ video {
 
 .min-h-full {
   min-height: 100%;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .w-2 {
@@ -1265,11 +1253,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.brightness-50 {
-  --tw-brightness: brightness(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .drop-shadow-\[3px_5px_3px_rgba\(0\2c 0\2c 0\2c 0\.25\)\] {
   --tw-drop-shadow: drop-shadow(3px 5px 3px rgba(0,0,0,0.25));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1532,6 +1515,10 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:max-w-\[478px\] {
+    max-width: 478px;
   }
 
   .lg\:max-w-\[512px\] {
