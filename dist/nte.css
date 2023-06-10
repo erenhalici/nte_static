@@ -1339,11 +1339,11 @@ video {
 }
 
 .placeholder\:font-awesome::-moz-placeholder {
-  font-family: FontAwesome;
+  font-family: FontAwesome, Montserrat Regular;
 }
 
 .placeholder\:font-awesome::placeholder {
-  font-family: FontAwesome;
+  font-family: FontAwesome, Montserrat Regular;
 }
 
 .placeholder\:font-montserrat::-moz-placeholder {
@@ -1362,14 +1362,12 @@ video {
   font-size: 6pt;
 }
 
-.placeholder\:text-sm::-moz-placeholder {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.placeholder\:text-\[9pt\]::-moz-placeholder {
+  font-size: 9pt;
 }
 
-.placeholder\:text-sm::placeholder {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.placeholder\:text-\[9pt\]::placeholder {
+  font-size: 9pt;
 }
 
 .hover\:bg-sky-200:hover {

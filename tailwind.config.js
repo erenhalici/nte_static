@@ -51,7 +51,7 @@ module.exports = {
       montserrat: ["Montserrat Regular"],
       "montserrat-bold": ["Montserrat Bold"],
       "montserrat-extrabold": ["Montserrat ExtraBold"],
-      awesome: ["FontAwesome"],
+      awesome: ["FontAwesome", "Montserrat Regular"],
     },
   },
   plugins: [],
